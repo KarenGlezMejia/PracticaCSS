@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+}
+
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
+    border: 1px solid black;
+}
+
+.bloquePrincipal,
+.bloquePreparativosVacuna,
+.bloqueEmergenciaContacto{
+    margin: 50px;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+}
+
+.marcas{
+    display: flex;
+    justify-content:space-around;
+    margin: 50px;
+}
+
+.porqueVacunarse{
+    margin: 50px;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.card{
+
+    width: 150px;
+    border: 1px solid black;
+}
+
+footer{
+    margin: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.listas{
+    display: flex;
+
+    
+}
+
+ul{
+    list-style-type: none;
+    
+}
+
+li{
+    line-height: 25px;
+}
+
+.derechosReservados{
+   display: flex;
+   margin: 50px;
+   justify-content: space-between;
+}
+
+
