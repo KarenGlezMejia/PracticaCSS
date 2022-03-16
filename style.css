@@ -31,12 +31,47 @@
 }
 
 .bloquePrincipal,
-.bloquePreparativosVacuna,
 .bloqueEmergenciaContacto{
     margin-left: 50px;
     display: flex;
     justify-content: space-between;
     border: 1px solid black;
+}
+
+.bloquePreparativosVacuna{
+    margin-right: 50px;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+}
+
+.bloquePrincipal p,
+.bloqueEmergenciaContacto p{
+    color:rgb(109, 123, 147);
+    font-size: 23px;
+    line-height: 40px;
+    margin-bottom: 50px;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+
+
+.bloquePreparativosVacuna .parrafo1{
+    color:rgb(109, 123, 147);
+    font-size: 23px;
+    line-height: 40px;
+    margin-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.parrafo2{
+    font-family: 'Poppins', sans-serif;
+    color:rgb(109, 123, 147);
+    font-size: 15px;
+    margin-left: 45px;
+    margin-top: 20px;
 }
 
 .bloquePrincipal h1{
@@ -46,15 +81,16 @@
     font-size: 70px;
 }
 
+/*
 .bloquePrincipal p{
     color:rgb(109, 123, 147);
     font-size: 23px;
     line-height: 40px;
     margin-bottom: 50px;
     font-family: 'Poppins', sans-serif;
-}
+}*/
 
-.bloquePrincipal a{
+.iconosAmarillos {
     margin-right: 50px;
     color: rgb(31, 62, 114);
     font-family: 'Poppins', sans-serif;
@@ -63,7 +99,7 @@
     margin-bottom: 20px;
 }
 
-.bloquePrincipal i{
+.iconosAmarillos i{
     background-color:rgb(255, 247, 210);;
     padding: 5px;
     color: rgb(255, 208, 18);
@@ -75,14 +111,31 @@
     width: 600px;
 }
 
-.calendario a{
-    font-size: 30px;
+.calendario {
+    color: rgb(31, 62, 114);
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+    font-weight: 800;
 }
 
 .calendario i{
+    padding: 5px;
     background-color: rgb(240, 244, 255);
     color: rgb(74, 103, 255);
+    margin-right: 15px;
 }
+
+
+.div_transversal{
+    display: flex;
+    justify-content: space-around;
+}
+
+.titulo{
+    color:rgb(109, 123, 147);
+    font-family: 'Poppins', sans-serif;
+}
+
 .marcas{
     display: flex;
     justify-content:space-around;
@@ -120,6 +173,23 @@
     margin: 50px;
 }
 
+
+h2{
+    color: rgb(31, 62, 114);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 41px;
+    margin-bottom: 50px;
+}
+
+.razonVacuna{
+    
+    color:rgb(109, 123, 147);
+    font-size: 23px;
+    line-height: 40px;
+    margin-bottom: 50px;
+    font-family: 'Poppins', sans-serif;
+}
+
 .cards{
     display: flex;
     justify-content: space-around;
@@ -128,8 +198,91 @@
 
 .card{
 
-    width: 150px;
-    border: 1px solid black;
+    width: 290px;
+    height: 350px;
+    border: 3px solid rgb(250, 250, 255);
+    border-radius: 10px;
+}
+
+.card ul li{
+    margin-bottom: 15px;
+    margin-right: 20spx;
+}
+
+.card ul li i{
+    padding: 20px;
+    border-radius: 12px;
+    background-color: rgb(240, 244, 255);
+    color: rgb(74, 103, 255);
+    margin-right: 15px;
+    margin-top: 25px;
+}
+
+.card .titulo{
+  
+    color: rgb(31, 62, 114);
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+}
+
+.card .parrafo{
+    color:rgb(109, 123, 147);
+    font-size: 15px;
+    margin-bottom: 50px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.bloquePreparativosVacuna img{
+    width: 550px;
+    height: 620px;
+    margin-top: 250px;
+}
+
+.bloqueEmergenciaContacto h2,
+.bloquePreparativosVacuna h2{
+    margin-top: 70px;
+}
+
+.tarjeta{
+    padding: 18px;
+    width: 550px;
+    border: 3px solid rgb(250, 250, 255);
+    border-radius: 5px;
+    margin-bottom: 17px;
+}
+
+.calendario1{
+    color: rgb(31, 62, 114);
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.calendario1 i{
+    padding: 5px;
+    background-color: rgb(240, 244, 255);
+    color: rgb(74, 103, 255);
+    margin-right: 15px;
+}
+
+.angulo1{
+    margin-left: 220px;
+}
+
+.angulo2{
+    margin-left: 350px;
+}
+
+.angulo3{
+    margin-left: 310px;
+}
+
+.angulo4{
+    margin-left: 300px;
+}
+
+.angulo5{
+    margin-left: 210px;
 }
 
 footer{
@@ -153,6 +306,11 @@ li{
     line-height: 25px;
 }
 
+.bloqueEmergenciaContacto img{
+    margin-top: 250px;
+    height: 600px;
+}
+
 .derechosReservados{
    display: flex;
    margin: 50px;
@@ -160,7 +318,8 @@ li{
 }
 
 
-footer,
+
 .derechosReservados{
+    display: block;
     background-color:#B9D8F7 ;
 }
