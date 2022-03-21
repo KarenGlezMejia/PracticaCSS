@@ -285,6 +285,65 @@ h2{
     margin-left: 210px;
 }
 
+.bloqueEmergenciaContacto img{
+    display: inline;
+}
+
+.bloquetarjeta{
+   width: 28%;
+   display: inline-block;
+   border:3px solid rgb(250, 250, 255);
+   margin: 50px 0px 0px 15px;
+   padding: 30px;
+   border-radius: 10px;
+}
+
+.bloquetarjeta p{
+    font-size: 15px;
+}
+
+
+.bloqueEmergenciaContacto .imagen{
+    border: 1px solid violet;
+    height: 950px;
+}
+
+.imagen img{
+    height: 100%;
+}
+
+.temaTarjeta{
+    display: flex;
+   
+}
+
+.temaTarjeta i{
+    padding: 20px;
+    width: 20px;
+    height: 20px;
+    
+    margin:10px 10px 10px 10px;
+    border-radius: 10px;
+}
+
+.boton{
+    padding: 20px;
+    width: 75%;
+    text-align: center;
+    color:rgb(74, 103, 255);
+    background-color: rgb(240, 244, 255);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 5px;
+    font-size: larger;
+    border: 1px solid  rgb(240, 244, 255);
+}
+
+.chatNow{
+    background-color: rgb(74, 103, 255);
+    color: white;
+    border: 1px solid rgb(74, 103, 255);
+}
+
 footer{
     margin: 50px;
     display: flex;
