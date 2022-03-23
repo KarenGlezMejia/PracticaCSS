@@ -128,7 +128,26 @@
 
 .div_transversal{
     display: flex;
-    justify-content: space-around;
+    position: relative;
+    top: 40px;
+}
+
+.div_transversal div{
+    margin-right: 30px;
+    margin-left: 50px;
+}
+
+.div_transversal .subtitulo{
+    margin-left: 50px;
+}
+
+.div_transversal input{
+    border-radius: 5px;
+    border: 1px solid  rgb(74, 103, 255);
+    height: 60px;
+    width: 150px;
+    background-color: rgb(74, 103, 255);
+    color: white;
 }
 
 .titulo{
@@ -302,15 +321,16 @@ h2{
     font-size: 15px;
 }
 
+.bloqueEmergenciaContacto .parrafo{
+    font-size: 20px;
+}
 
 .bloqueEmergenciaContacto .imagen{
     border: 1px solid violet;
     height: 950px;
 }
 
-.imagen img{
-    height: 100%;
-}
+
 
 .temaTarjeta{
     display: flex;
@@ -342,6 +362,8 @@ h2{
     background-color: rgb(74, 103, 255);
     color: white;
     border: 1px solid rgb(74, 103, 255);
+    box-shadow: 5px 20px 15px -18px purple;
+    
 }
 
 footer{
@@ -366,8 +388,10 @@ li{
 }
 
 .bloqueEmergenciaContacto img{
+    width: 620px;
+    height: 700px;
     margin-top: 250px;
-    height: 600px;
+    
 }
 
 .derechosReservados{
