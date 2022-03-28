@@ -17,32 +17,50 @@
     margin: 50px;
 }
 
+.hoaxBuster{
+    background-color: rgb(74, 103, 255);
+    color: white;
+    border: 1px solid rgb(74, 103, 255);
+    padding: 10px 15px 10px 15px;
+
+}
+
 .menu{
     margin-top: 50px;
     margin-right: 70px;
 } 
 
-.menu a{
+.menu a {
     margin-left: 55px;
-    color: rgb(109, 123, 147);
     text-decoration: none;
     font-family: 'Poppins', sans-serif;
     font-size: 18px;
 }
 
-.bloquePrincipal,
+.menu .seccion{
+    color: rgb(109, 123, 147);
+}
+
+
+
+.seccionPrincipal{
+    position: relative;
+}
+
+
+
+.seccionPrincipal,
 .bloqueEmergenciaContacto{
     margin-left: 50px;
     display: flex;
     justify-content: space-between;
-    border: 1px solid black;
 }
 
 .bloquePreparativosVacuna{
     margin-right: 50px;
     display: flex;
     justify-content: space-between;
-    border: 1px solid black;
+  
 }
 
 .bloquePrincipal p,
@@ -104,11 +122,16 @@
     padding: 5px;
     color: rgb(255, 208, 18);
     margin-right: 15px;
+    border-radius: 3px;
+   
+   
+    
     /* rgb(255, 247, 210);*/
 }
 
 .bloquePrincipal img{
-    width: 600px;
+    width: 650px;
+    height: 820px;
 }
 
 .calendario {
@@ -119,22 +142,30 @@
 }
 
 .calendario i{
-    padding: 5px;
+    padding: 8px;
     background-color: rgb(240, 244, 255);
     color: rgb(74, 103, 255);
     margin-right: 15px;
+    border-radius: 3px;
 }
 
 
 .div_transversal{
     display: flex;
-    position: relative;
-    top: 40px;
+    position: absolute;
+    bottom: -280px;
+    margin-left: 50px;
+    background-color: rgb(253, 254, 255);
+    border: 3px solid white;
+    padding: 25px 12px;
+    border-radius: 5px;
+    box-shadow: 2px 10px 15px 8px  rgb(240, 244, 255);
 }
 
 .div_transversal div{
     margin-right: 30px;
     margin-left: 50px;
+
 }
 
 .div_transversal .subtitulo{
@@ -148,6 +179,9 @@
     width: 150px;
     background-color: rgb(74, 103, 255);
     color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    
 }
 
 .titulo{
@@ -251,6 +285,10 @@ h2{
     font-family: 'Poppins', sans-serif;
 }
 
+.card-two{
+    box-shadow: 3px 30px 15px 5px rgb(240, 244, 255);
+}
+
 .bloquePreparativosVacuna img{
     width: 550px;
     height: 620px;
@@ -326,11 +364,12 @@ h2{
 }
 
 .bloqueEmergenciaContacto .imagen{
-    border: 1px solid violet;
     height: 950px;
 }
 
-
+.chat{
+    box-shadow: 15px 10px 15px -5px rgb(240, 244, 255); 
+}
 
 .temaTarjeta{
     display: flex;
@@ -352,25 +391,91 @@ h2{
     text-align: center;
     color:rgb(74, 103, 255);
     background-color: rgb(240, 244, 255);
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Poppins', sans-serif;
     border-radius: 5px;
-    font-size: larger;
+    font-size: 18px;
     border: 1px solid  rgb(240, 244, 255);
+    font-weight: 700;
 }
 
 .chatNow{
     background-color: rgb(74, 103, 255);
     color: white;
     border: 1px solid rgb(74, 103, 255);
-    box-shadow: 5px 20px 15px -18px purple;
+    box-shadow: 5px 20px 15px -18px rgb(50, 97, 226);
+    font-family: 'Poppins', sans-serif;
     
 }
 
+
+
 footer{
-    margin: 50px;
+    margin-top: 20px;
+    background-color:rgb(240, 244, 255);
+    padding-top: 20px;
+    
+}
+
+footer p {
+    color:rgb(109, 123, 147);
+    font-size: 15px;
+    margin-top: 30px;
+    line-height: 2.0;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+footer ul{
+    margin-right: 60px;
+    color:rgb(109, 123, 147);
+    font-family: 'Poppins', sans-serif;
+}
+
+footer ul li{
+    line-height: 3.0;
+} 
+
+footer h3{
+    color: rgb(55, 87, 213);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+}
+
+footer h4{
+    color: rgb(31, 62, 114);
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+}
+
+.footer_about{
     display: flex;
+    margin: 50px;
     justify-content: space-between;
 }
+
+.derechosReservados{
+    display: flex;
+    margin: 50px;
+    padding-bottom: 15px;
+    justify-content: space-between;
+ }
+
+ .terminosyprivacidad{
+     display: flex;
+     color: blue;
+     margin-right: 80px;
+ }
+
+ .terminos{
+     margin-right: 10px;
+     
+ }
+ 
+ .privacidad{
+     margin-left: 30px;
+     
+ }
+
 
 .listas{
     display: flex;
@@ -394,6 +499,7 @@ li{
     
 }
 
+/*
 .derechosReservados{
    display: flex;
    margin: 50px;
@@ -406,3 +512,4 @@ li{
     display: block;
     background-color:#B9D8F7 ;
 }
+*/
